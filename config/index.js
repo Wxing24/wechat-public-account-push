@@ -142,7 +142,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "0xn8Ulmpg_4Qfx0OZx1HPH-ghlBk5PB9vXeAAu7qH08",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -188,7 +188,7 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "生日", "name": "全世界最好看的女孩子", "year": "1997", "date": "12-2", isShowAge: true},
+    {"type": "生日", "name": "全世界最好看的女孩子", "year": "1997", "date": "12-2", isShowAge: false},
     //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
 
     // 你可以不断按格式往下增加
