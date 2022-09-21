@@ -74,7 +74,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "宝贝", "year": "1997", "date": "12-2"},
+        {"type": "生日", "name": "宝贝", "year": "1997", "date": "12-2"},
         
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -105,9 +105,9 @@ export const config = {
       // 想要发送的人的名字
       name: "jinml",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o5qb15nlYC7WAaVRnEcruU552_10",
+      //id: "o5qb15nlYC7WAaVRnEcruU552_10",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "RLW38P591fHr4xdNgdLa1x3nEOwCKCxt0Rr_9LcARpE",
+      //useTemplateId: "RLW38P591fHr4xdNgdLa1x3nEOwCKCxt0Rr_9LcARpE",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -121,7 +121,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "狗子", "year": "1998", "date": "12-21"},
+        {"type": "生日", "name": "狗子", "year": "1998", "date": "12-21"},
         
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -188,7 +188,7 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "全世界最好看的女孩子", "year": "1997", "date": "12-2", isShowAge: true},
+    {"type": "生日", "name": "全世界最好看的女孩子", "year": "1997", "date": "12-2", isShowAge: true},
     //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
 
     // 你可以不断按格式往下增加
