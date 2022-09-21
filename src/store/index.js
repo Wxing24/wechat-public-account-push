@@ -52,6 +52,7 @@ export const DEFAULT_OUTPUT = {
   windDirection: '朝向你',
   windScale: '100级哦',
   holidaytts: '嘿嘿，今天不告诉你~',
+  firstchoice: 'You’re my first choice. \nI choose you.I’ll choose you over and over and over.\nWithout pause without doubt'
 }
 
 export const CITY_INFO = {
