@@ -227,14 +227,14 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "lover_prattle", contents: "You’re my first choice.\nI chose you. I’ll choose you over and over and over.\nWithout pause without doubt"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+//    {"keyword": "lover_prattle", contents: [
+//      "因为太喜欢你，所以看谁都像是情敌。",
+//      "申请成为你爱里的永久居民。",
+//      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+//      "遇见你，就好像捡到了100斤的运气",
+//    ]},
     // 你可以不断按格式往下增加
     // ...
   ],
