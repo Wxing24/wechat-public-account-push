@@ -96,7 +96,7 @@ export const config = {
     },
     {
       name: "weixr",
-      id: "",
+      id: "o5qb15nph-do8MvmvsoBD0kUTJ3o",
       useTemplateId: "SRN6mD0_G29RJRMY_s5rXRe6_bWJFGvIGlj-eqI3t4U",
       province: "甘肃",
       city: "民勤",
