@@ -28,11 +28,11 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -60,7 +60,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "wangxg",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o5qb15kTIPdRwS_1VUp5-kV8aOcI",
       // 你想对他发送的模板消息的模板ID
@@ -95,13 +95,13 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
+      name: "weixr",
       id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      useTemplateId: "SRN6mD0_G29RJRMY_s5rXRe6_bWJFGvIGlj-eqI3t4U",
+      province: "甘肃",
+      city: "民勤",
+      horoscopeDate: '12-2',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
       customizedDateList: []
@@ -147,7 +147,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "o5qb15kTIPdRwS_1VUp5-kV8aOcI",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -209,11 +209,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2022-01-13"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+    //{"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+    //{"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
     // ...
   ],
