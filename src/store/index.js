@@ -524,6 +524,9 @@ export const CITY_INFO = {
     武威: {
       AREAID: '101160501',
     },
+    民勤: {
+      AREAID: '101160502',
+    },
     金昌: {
       AREAID: '101160601',
     },
