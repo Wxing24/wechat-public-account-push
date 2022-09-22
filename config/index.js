@@ -92,7 +92,7 @@ export const config = {
       id: "o5qb15nph-do8MvmvsoBD0kUTJ3o",
       useTemplateId: "xvqLKBV4LDP5M9ibIcr_DKO2QkU-V0-FbGMgc9fO8OI",
       province: "甘肃",
-      city: "武威",
+      city: "民勤",
       horoscopeDate: '12-2',
       horoscopeDateType: '今日',
       openUrl: "https://s.weibo.com/top/summary?cate=realtimehot",
